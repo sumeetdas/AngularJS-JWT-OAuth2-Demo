@@ -49,6 +49,6 @@
   },
   "scripts": {
     "start": "node index.js",
-    "postInstall": "bower install"
+    "postinstall": "bower install"
   }
 }
