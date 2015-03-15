@@ -1,0 +1,24 @@
+nav.navbar.navbar-inverse.navbar-static(role="navigation", ng-controller="HeaderCtrl")
+  div.container-fluid
+    div.navbar-header
+      button.navbar-toggle(type="button", ng-click="isCollapsed = !isCollapsed")
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href="#", ui-sref='home') OAuth Demo
+    div.navbar-collapse.bs-js-navbar-collapse(collapse="isCollapsed")
+      ul.nav.navbar-nav
+        li: a(role="button", ui-sref="user.docs", href="#") Docs
+      ul(ng-if='!$storage.userToken').nav.navbar-nav.navbar-right
+        li: a(role="button", ui-sref="login", href="#") Login
+      ul(ng-if='!!$storage.userToken').nav.navbar-nav.navbar-right
+        li.dropdown(dropdown)
+          a.dropdown-toggle(data-toggle="dropdown", dropdown-toggle, aria-expanded="true",
+                            role="button", href="#") Hi {{$storage.name}}
+            span.caret
+          ul.dropdown-menu(role='menu')
+            li: a(ui-sref="user.account"): i.fa.fa-user.fa-lg 
+              |My Account
+            li: a(href="#", ng-click='logout()')
+              i.fa.fa-sign-out.fa-lg Logout

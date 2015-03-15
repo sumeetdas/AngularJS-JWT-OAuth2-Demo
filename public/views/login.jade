@@ -1,0 +1,35 @@
+div.container
+	div.row
+		div.col-lg-1
+		div.col-lg-8
+			div.row
+				div.col-lg-6
+					h3 Local Login
+					form.form-horizontal
+						div.form-group
+							label.col-lg-4.control-label Username
+							div.col-lg-8
+								input.form-control(placeholder="Username", ng-model='username')
+						div.form-group
+							label.col-lg-4.control-label Password
+							div.col-lg-8
+								input.form-control(type="password", placeholder="Password", ng-model='password')
+						div.form-group
+							div.col-lg-8 
+							div.col-lg-4: button.btn.btn-primary.pull-right(ng-click='localLogin()') Sign in
+					p.text-center Not a user already?
+						a(ui-sref="signup", style="margin-left: 5px") Sign up here.
+				div.col-lg-6
+					h3 Login via OAuth
+					div.row
+						div.col-md-3: a(ng-click='oauth2login("facebook")', title='Login via Facebook'): i.fa.fa-facebook.fa-3x
+						div.col-md-3: a(ng-click='oauth2login("google")', title='Login via Google'): i.fa.fa-google.fa-3x
+						div.col-md-3: a(ng-click='oauth2login("github")', title='Login via Github'): i.fa.fa-github.fa-3x
+						div.col-md-3: a(ng-click='oauth2login("linkedin")', title='Login via LinkedIn'): i.fa.fa-linkedin.fa-3x
+					br
+					div.row
+						div.col-md-3: a(ng-click='oauth2login("reddit")', title='Login via Reddit'): i.fa.fa-reddit.fa-3x
+						div.col-md-3: a(ng-click='oauth2login("instagram")', title='Login via Instagram'): i.fa.fa-instagram.fa-3x
+						div.col-md-3: a(ng-click='oauth2login("vimeo")', title='Login via Vimeo'): i.fa.fa-vimeo-square.fa-3x
+						div.col-md-3: a(ng-click='oauth2login("foursquare")', title='Login via Foursquare'): i.fa.fa-foursquare.fa-3x
+		div.col-lg-1

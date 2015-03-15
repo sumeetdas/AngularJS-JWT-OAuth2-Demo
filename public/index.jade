@@ -1,15 +1,24 @@
 doctype html
-html
+html(ng-app="app")
 	head
 		title Authentication and Authorization
-		link(rel="stylesheet", type="text/css", href="lib/bootstrap/dist/css/bootstrap.min.css")
-		link(rel="stylesheet", href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+		link(rel="stylesheet", href="lib/bootstrap-css-only/css/bootstrap.min.css")
+		//- link(rel="stylesheet", href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css")
+		link(rel="stylesheet", href="lib/components-font-awesome/css/font-awesome.min.css")
 		link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Roboto:400,300")
-		link(rel="stylesheet", type="text/css", href="styles/main.css")
+		link(rel="stylesheet", href="lib/ngtoast/dist/ngToast.min.css")
+		link(rel="stylesheet", href="styles/main.css")
 		script(src="lib/angular/angular.min.js")
+		script(src="lib/angular-animate/angular-animate.min.js")
+		script(src="lib/angular-sanitize/angular-sanitize.min.js")
 		script(src="lib/angular-bootstrap/ui-bootstrap-tpls.min.js")
-		script(src="lib/angular-ui-router/release/angular-ui-router.min.js")
+		script(src="lib/angular-ui-router/release/angular-ui-router.js")
+		script(src="lib/ngtoast/dist/ngToast.min.js")
+		script(src="lib/angular-jwt/dist/angular-jwt.js")
+		script(src="lib/ngstorage/ngstorage.min.js")
 		script(src="scripts/app.js")
+		script(src="scripts/factories/authInterceptor.js")
+		script(src="scripts/factories/popup.js")
 	body
-		include views/header
+		include ./views/header.jade
 		div(ui-view)

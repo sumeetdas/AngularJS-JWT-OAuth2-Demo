@@ -1,0 +1,33 @@
+div.container 
+	div.row 
+		div.col-lg-1
+		div.col-lg-8
+			div.row
+				div.col-lg-12.col-md-12
+					h3.text-center Sign Up
+					br
+					form.form-horizontal(name='form.signup')
+						div.form-group
+							label.col-lg-4.control-label Username
+							div.col-lg-5
+								input.form-control(required,
+												   placeholder="Username", 
+												   ng-model='username')
+						div.form-group
+							label.col-lg-4.control-label Password
+							div.col-lg-5
+								input.form-control(type="password", 
+												   required,
+												   placeholder="Password", 
+												   ng-model='password')
+						div.form-group
+							label.col-lg-4.control-label Confirm password
+							div.col-lg-5
+								input.form-control(type="password", 
+												   required,
+												   placeholder="Confirm Password", 
+												   ng-model='confirmPassword')
+						div.form-group
+							div.col-lg-5
+							div.col-lg-4: button.btn.btn-primary.pull-right(ng-click='submit()') Sign Up
+		div.col-lg-1
