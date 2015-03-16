@@ -1,16 +1,16 @@
 {
 	"production": {
-		"username": "admin",
-		"password": "gzb.2832!",
-		"host": "ds059907.mongolab.com",
-		"port": "59907",
-		"databaseName": "sumeetdasme"
+		"username"		: "",
+		"password"		: "",
+		"host"			: "",
+		"port"			: "",
+		"databaseName"	: ""
 	},
 	"development": {
-		"username": "",
-		"password": "",
-		"host": "localhost",
-		"port": "27017",
-		"databaseName": "test"
+		"username"		: "",
+		"password"		: "",
+		"host"			: "",
+		"port"			: "",
+		"databaseName"	: ""
 	}
 }

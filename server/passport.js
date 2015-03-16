@@ -1,6 +1,7 @@
 var passport 	= require('passport'),
 	User 		= require('./data/models/user'),
-    config      = require('../config/passport'),
+    environment = process.env.NODE_ENV || 'development',
+    config      = require('../config/passport')[environment],
     strategy    = {
         local       : require('passport-local').Strategy,
         facebook    : require('passport-facebook').Strategy,

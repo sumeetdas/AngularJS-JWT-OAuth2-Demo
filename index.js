@@ -5,7 +5,6 @@ var express 	= require('express'),
 	Promise 	= require('bluebird'),
 	mongoose 	= require('mongoose'),
 	uriUtil 	= require('mongodb-uri'),
-	shortid 	= require('shortid'),
 	dbConfig 	= require('./config/mongo'),
 	router      = require('./server/router'),
 	passport 	= require('./server/passport')
@@ -23,8 +22,6 @@ app.use(bodyParser.json())
 
 // required for passport
 app.use(passport.initialize())
-
-var jwtSecret = shortid.generate()
 
 app.use('/', router)
 

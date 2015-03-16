@@ -6,7 +6,6 @@ var router 	 	= require('express').Router(),
 	passport 	= require('./passport'),
 	user 	 	= require('./security/user'),
 	tokenConfig = require('../config/token') 
-	
 
 router.get('/views/:filename', user.isAuthorized, function (request, response) {
 	response.render(request.params.filename + '.jade');
