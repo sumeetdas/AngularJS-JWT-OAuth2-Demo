@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap-css-only",
+  "description": "Bower component for [Bootstrap](http://getbootstrap.com/) CSS and font libraries only. No javascript, and more importantly NO bower depenedency on jQuery.",
+  "keywords": [
+    "twitter",
+    "bootstrap",
+    "twitter-bootstrap",
+    "css"
+  ],
+  "main": [
+    "css/bootstrap.css",
+    "fonts/glyphicons-halflings-regular.eot",
+    "fonts/glyphicons-halflings-regular.svg",
+    "fonts/glyphicons-halflings-regular.ttf",
+    "fonts/glyphicons-halflings-regular.woff",
+    "fonts/glyphicons-halflings-regular.woff2"
+  ],
+  "homepage": "http://getbootstrap.com/",
+  "author": {
+    "name": "Twitter Inc."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fyockm/bootstrap-css-only.git"
+  },
+  "version": "3.3.2",
+  "_release": "3.3.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.2",
+    "commit": "037be49b7ddcea0eb2daee268d04f2080e1a12fc"
+  },
+  "_source": "git://github.com/fyockm/bootstrap-css-only.git",
+  "_target": "~3.3.2",
+  "_originalSource": "bootstrap-css-only"
+}

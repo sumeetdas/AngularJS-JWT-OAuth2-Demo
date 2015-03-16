@@ -1,0 +1,50 @@
+{
+	"facebook": {
+		"clientID": "426706947492936",
+    	"clientSecret": "92d426565f4e8272f8507150f46ba622",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/facebook/callback"
+	},
+	"twitter": {
+		"authorizationURL": "https://api.twitter.com/oauth/authorize",
+		"tokenURL": "https://api.twitter.com/oauth2/token",
+		"clientID": "3Cn2yalDSzXfLWD02GH0hc0In",
+    	"clientSecret": "lLXsozcyok3Lp8FUdZ9STOZZQs9Op7j3WbZk9bknrjfORiEXYL",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/twitter/callback"
+	},
+	"google": {
+		"clientID": "933710794487-gvk24m97eemf69tjcjnsl8ii6otdts28.apps.googleusercontent.com",
+    	"clientSecret": "LrjDVtuMMcuulcHTV2kCThZ6",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/google/callback"
+	},
+	"github": {
+		"clientID": "a254fd5944415441de93",
+		"clientSecret": "13dfe3bda81bc76543d1b9ccbae15d28a45bb7b6",
+		"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/github/callback"
+	},
+	"vimeo": {
+		"clientID": "26699fff9d3d3c586cc518559b16bcd37b912bd0",
+    	"clientSecret": "MR+lxqeZTC1uUW3D8B7EE5cddqieHmp0/618DOXotOU7LMLDNVlQDdQNijhP2BSfOHR2Je6BmWbE/dD5mLLF4RR7OKe78BRDn2V0W/9SsZGhjQxTWpDEp1pmJrfVx/jy",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/vimeo/callback"
+	},
+	"instagram": {
+		"clientID": "d6a6bae844f246e4b509223286bdc9f0",
+    	"clientSecret": "3000d79753f14fb9ae4b566c8bd60a2d",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/instagram/callback"
+	},
+	"linkedin": {
+		"clientID": "78t0qc091pm8xk",
+    	"clientSecret": "BtNlXg1AGnDBCXgF",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/linkedin/callback",
+    	"scope": ["r_emailaddress", "r_basicprofile"]
+	},
+	"foursquare": {
+		"clientID": "ZKUUL0QZ44GT3CL0WGHHWWHXTXZHNN2Q3WKOKK4AQNTWAAMF",
+    	"clientSecret": "5UHBA2BH1NHBB4UQGPQ1T0Y5NPMD3AYUYSCTHCFOPFELSRA3",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/foursquare/callback"
+	}, 
+	"reddit": {
+		"clientID": "MVwC9KLSxWTgQQ",
+    	"clientSecret": "wPDwmm4t7zCcvIvTEOWnjQ3v3Ds",
+    	"callbackURL": "http://jwt-oauth2-demo.herokuapp.com/auth/reddit/callback"
+	}
+}
