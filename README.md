@@ -2,7 +2,9 @@
 
 An app to demonstrate authorization and authentication built on top of MEAN stack.
 
-Demo: http://jwt-oauth2-demo.herokuapp.com
+Demo: http://www.sumeetdas.me
+
+Click on 'Contact' (which you can find it on Navbar) and you will see the login drop down menu. Click on any of the buttons to login in to the application via the chosen OAuth2 provider and you'll be redirected to Contact page.
 
 ### Features of this app include:
 
