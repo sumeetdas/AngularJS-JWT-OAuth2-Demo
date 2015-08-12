@@ -2,104 +2,104 @@
 	"development": {
 
 		"facebook": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"twitter": {
-			"authorizationURL"	: "",
-			"tokenURL"			: "",
-			"clientID"			: "",
-	    	"clientSecret"		: "",
-	    	"callbackURL"		: ""
+			"authorizationURL": "",
+			"tokenURL"        : "",
+			"clientID"        : "",
+	    		"clientSecret"	  : "",
+	    		"callbackURL"     : ""
 		},
 		"google": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"github": {
-			"clientID"		: "",
+			"clientID"	: "",
 			"clientSecret"	: "",
 			"callbackURL"	: ""
 		},
 		"vimeo": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"instagram": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"linkedin": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: "",
-	    	"scope"			: []
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: "",
+	    		"scope"		: []
 		},
 		"foursquare": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		}, 
 		"reddit": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		}
 	},
 
 	"production": {
 		
 		"facebook": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"twitter": {
 			"authorizationURL"	: "",
-			"tokenURL"			: "",
-			"clientID"			: "",
-	    	"clientSecret"		: "",
-	    	"callbackURL"		: ""
+			"tokenURL"		: "",
+			"clientID"		: "",
+	    		"clientSecret"		: "",
+	    		"callbackURL"		: ""
 		},
 		"google": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"github": {
-			"clientID"		: "",
+			"clientID"	: "",
 			"clientSecret"	: "",
 			"callbackURL"	: ""
 		},
 		"vimeo": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"instagram": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		},
 		"linkedin": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: "",
-	    	"scope"			: []
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: "",
+	    		"scope"		: []
 		},
 		"foursquare": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		}, 
 		"reddit": {
-			"clientID"		: "",
-	    	"clientSecret"	: "",
-	    	"callbackURL"	: ""
+			"clientID"	: "",
+	    		"clientSecret"	: "",
+	    		"callbackURL"	: ""
 		}
 	}
 }
